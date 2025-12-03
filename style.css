@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+html, body{
+    height: 100%;
+    overflow: hidden;
+
+}
+body{
+    background: #f0f0f0;
+    color: #333;
+}
+header{
+    width: 100%;
+    padding: 20px;
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: #007BFF;
+}
+nav{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    
+
+}
+nav a:hover{
+   border-bottom: 3px solid #007BFF;
+    cursor: pointer;
+}
+.hire-btn{
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+}
+/* Hero section styles */
+.hero{
+    display: flex;
+   
+    justify-content: space-between;
+    padding: 60px 80px;
+    height: calc(100% - 120px);
+}
+
+.hero-content{
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+}
+.socials{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 24px;
+    color: #007BFF;
+}
+.socials i:hover{
+    color: #0056b3;
+    cursor: pointer;
+    
+
+}
+.left{
+    max-width: 600px;
+    
+}
+.right img{
+    width: 450px;
+    
+}
+.text p{
+    max-width: 700px;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.text h1{
+    max-width: 750px;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.text h1 span{
+    color: #007BFF;
+}
+.text p{
+    line-height: 1.8;
+    font-size: 20px;
+    color: #555;
+    text-align: justify;
+}
+.connect-btn{
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 18px;
+}
+.connect-btn:hover{
+    background-color: #218838;
+}
